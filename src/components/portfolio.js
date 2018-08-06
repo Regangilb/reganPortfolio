@@ -1,19 +1,15 @@
 import React, { Component } from 'react';
 import Nav from './nav'
 
-import Start from './start'
-
-export default class Home extends Component {
+class Portfolio extends Component {
   render() {
     return (
       <div>
         <Nav />
-        <div>
-        <Start />
-        </div>
+        <h1>My Portfolio</h1>
       </div>
-
-
     );
   }
 }
+
+export default Portfolio;

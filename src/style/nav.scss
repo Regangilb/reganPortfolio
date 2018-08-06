@@ -1,0 +1,54 @@
+.title{
+    font-size: 40px;
+    
+    
+}
+
+
+.header {
+    align-content: center;
+    width: 100%;
+    align-items: right;
+    display: inline;
+    text-decoration: none;
+    font-size: 20px;
+    padding-bottom: 5px;
+    
+}
+
+
+
+
+
+ul {
+    height: 45px;
+    margin: 5;
+    padding: 0;
+    background-color: #252323;
+    
+}
+
+
+li {
+   display: inline-grid;
+   
+}
+
+li a {
+    display: block;
+    color: #F5F1ED;
+
+    padding-top: 5px;
+    padding-right: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+li a:hover {
+    text-decoration: gray;
+    
+}
+
+.active {
+    background-color: #9E7E6A;
+}

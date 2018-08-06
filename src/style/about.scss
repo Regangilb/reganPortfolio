@@ -1,0 +1,15 @@
+.about {
+    display: grid;
+
+&__title {
+    font-size: 60px;
+    padding-top: 15px;
+
+    }
+
+&__paragraph{
+    font-size: 25px;
+    align-items: right
+}
+
+}
