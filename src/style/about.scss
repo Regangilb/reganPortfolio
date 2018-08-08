@@ -1,15 +1,24 @@
 .about {
     display: grid;
-
-&__title {
-    font-size: 60px;
-    padding-top: 15px;
-
-    }
-
-&__paragraph{
-    font-size: 25px;
-    align-items: right
 }
 
+.aboutMe {
+    display: grid;
+    font-size: 25px;
+
+}
+.paragraph {
+    display: grid;
+    font-size: 20px;
+
+}
+
+
+.image {
+    display: grid;
+    img {
+        position: relative;
+        width: 209px;
+        height: 279px;
+    }
 }

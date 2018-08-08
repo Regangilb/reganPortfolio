@@ -1,12 +1,18 @@
 import React, { Component } from 'react';
+import { Wave } from 'react-animated-text';
 
 class Start extends Component {
     render() {
         return (
+            <div class="container">
+            <div class="content-wrapper">
             <div className="start">
             
-            <label className="hello">hello</label>
+            hello.
+                </div>
             </div>
+          </div>
+          
         ); 
     }
 }
