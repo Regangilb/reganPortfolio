@@ -8,7 +8,7 @@ class Nav extends Component {
       <div className="title">Regan Gilbert Valgren</div>
       <div class="container">
       <div class="content-wrapper">
-      <i class="fas fa-bars"></i>
+      
         <ul>
         
           <li><Link to="/">Home</Link></li>

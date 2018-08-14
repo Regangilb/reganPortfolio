@@ -1,22 +1,18 @@
 
-.button{
-    display: flex;
-    float: right;
+.port-button{
+    display: grid;
+
+
     border: none;
     height: 50px;
     width: 320px;
+    font-size: 30px;
     background-color: #252323;
     color: #F5F1ED;
     font-family: 'Arsenal', sans-serif;
-   margin-right: 30em;
-
+   
     -webkit-clip-path: circle(50% at 50% 50%);
     clip-path: circle(50% at 50% 50%);
 
-    }
-    .buttonTitle{
-        font-size: 25px;
-        position: relative;
-        text-align: right;
 
     }

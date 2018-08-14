@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Nav from './nav'
+import PortfolioButton from './portfolioButton';
 
 class About extends Component {
   render() {
@@ -20,8 +21,11 @@ class About extends Component {
            Curabitur vel pharetra enim. Nulla ut mauris dolor. Maecenas egestas 
            pretium ultricies. Duis a dolor porta, volutpat libero non, cursus enim.
          Praesent vitae eleifend tellus, nec imperdiet quam.
+         </div>
         <div className="image">
-         <img alt="about me photo" src="https://photos.smugmug.com/Other/Regan2015/2017-Part-1/2017-Winter/i-cqqjrXX/1/6fb02bb7/X3/IMG_2809-X3.jpg"/>
+         <img alt="about me photo" src="https://photos.smugmug.com/Other/Regan2015/2017-Part-1/Summer-/i-q5r7wcL/0/b3482a40/X3/IMG_7168-X3.jpg"/>
+         <div className="portButton">
+         <PortfolioButton/>
                 </div>
               </div>
             </div>

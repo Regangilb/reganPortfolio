@@ -1,24 +1,39 @@
 .about {
-    display: grid;
+    display: flex;
 }
 
 .aboutMe {
-    display: grid;
-    font-size: 25px;
+    display: flex;
+    font-size: 30px;
+
 
 }
 .paragraph {
+
+
+    
     display: grid;
     font-size: 20px;
+    grid-template-rows: 3;
+    margin-left: 45em;
+    margin-top: 5em;
+    margin-right: auto;
+    max-width: 55rem;
 
 }
 
-
 .image {
     display: grid;
+    position: static;
     img {
-        position: relative;
-        width: 209px;
-        height: 279px;
+        margin-left: 5em;
+        width: 464px;
+        height: 309px;
     }
+}
+
+.portButton {
+    display: flex;
+    margin-right: 30em;
+    margin-left: 50em;
 }
