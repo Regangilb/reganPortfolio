@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 class ContactButton extends Component {
     render() {
         return (
-          <div>
-          <button id ="contact"><Link to ="/contact">Contact</Link></button>
+          <div className="contactButton">
+          <button id ="contact"><Link to ="/contact">Go to Contact Me</Link></button>
           
           </div>
         );

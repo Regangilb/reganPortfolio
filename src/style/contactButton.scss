@@ -1,15 +1,13 @@
-
 .contactButton{
     display: grid;
-
-
-    border: none;
+    border:  transparent;
     height: 50px;
     width: 320px;
-    font-size: 30px;
+    font-size: 25px;
     background-color: #252323;
     color: #F5F1ED;
-    font-family: 'Arsenal', sans-serif;
+
+
    
     -webkit-clip-path: circle(50% at 50% 50%);
     clip-path: circle(50% at 50% 50%);

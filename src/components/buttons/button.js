@@ -6,9 +6,11 @@ class Button extends Component {
     render() {
         return (
           <div>
-            <button id ="about"><Link to ="/about">About</Link></button>
+          <div className="aboutButton">
+            <button id ="about"><Link to ="/about">Go to About</Link></button>
 
           
+          </div>
           </div>
         );
       }

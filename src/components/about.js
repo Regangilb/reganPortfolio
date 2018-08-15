@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Nav from './nav'
-import PortfolioButton from './portfolioButton';
+import PortfolioButton from './buttons/portfolioButton';
 
 class About extends Component {
   render() {
@@ -12,7 +12,7 @@ class About extends Component {
         <div className="aboutMe">About Me</div>
 
         
-        <div class="wrapper">
+      <div>
         <div className="paragraph">
         Morbi imperdiet lorem eu purus lobortis,
          a aliquet magna mattis. Vestibulum at sagittis dui.

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Nav from './nav'
 
 import Start from './start'
-import Button from './button';
+import Button from './buttons/button';
 
 export default class Home extends Component {
   render() {

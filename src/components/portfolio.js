@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Nav from './nav'
-import ContactButton from './contactButton'
+import ContactButton from './buttons/contactButton'
 
 class Portfolio extends Component {
   render() {
