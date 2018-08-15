@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
-
+import { Link } from 'react-router-dom';
 
 class Button extends Component {
+
     render() {
         return (
           <div>
-          <button className="button" onClick={this.handleClick}>
-          <div className="buttonTitle">
-           ''''''''   Go to About Me 
-           </div>
-          </button>
+            <button id ="about"><Link to ="/about">About</Link></button>
+
           
           </div>
         );

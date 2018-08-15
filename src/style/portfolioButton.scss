@@ -1,14 +1,16 @@
 
 .port-button{
     display: grid;
-
-
+    grid-template-columns: repeat(3, 1fr);
+    grid-column: 1 / 3;
+    grid-row: 1;
     border: none;
     height: 50px;
     width: 320px;
     font-size: 30px;
     background-color: #252323;
     color: #F5F1ED;
+
     font-family: 'Arsenal', sans-serif;
    
     -webkit-clip-path: circle(50% at 50% 50%);

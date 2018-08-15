@@ -12,7 +12,7 @@ class About extends Component {
         <div className="aboutMe">About Me</div>
 
         
-        <div class="content-wrapper">
+        <div class="wrapper">
         <div className="paragraph">
         Morbi imperdiet lorem eu purus lobortis,
          a aliquet magna mattis. Vestibulum at sagittis dui.
